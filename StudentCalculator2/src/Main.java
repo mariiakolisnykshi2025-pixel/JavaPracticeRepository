@@ -1,11 +1,10 @@
 void main() {
-    System.out.println("aaa");
 
     Student a = new Student();
-    a.name = "Mariia";
+    a.setName("Mariia");
 
-    a.age = 18;
+    a.setAge(18);
 
-    System.out.println(a.age);
+    System.out.println(a.getAge());
 
 }
