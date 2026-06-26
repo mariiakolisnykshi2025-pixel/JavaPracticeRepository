@@ -1,6 +1,6 @@
 public class Student {
     private String name;
-    private int age;
+    public String id;
     private double Grade;
 
     public String getName() {
@@ -11,13 +11,7 @@ public class Student {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public double getGrade() {
         return Grade;
