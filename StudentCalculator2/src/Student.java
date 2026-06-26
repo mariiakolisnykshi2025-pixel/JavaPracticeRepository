@@ -1,8 +1,20 @@
 public class Student {
-    private int age;
+    private String name;
+    public String id;
+    private double Grade;
 
-    public int getAge() {
-        return age;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+
+    public double getGrade() {
+        return Grade;
     }
 
     public void setGrade(double grade) {
